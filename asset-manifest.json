@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/stripe-component/static/css/main.17654e45.css",
+    "main.js": "/stripe-component/static/js/main.071ca142.js",
+    "index.html": "/stripe-component/index.html",
+    "main.17654e45.css.map": "/stripe-component/static/css/main.17654e45.css.map",
+    "main.071ca142.js.map": "/stripe-component/static/js/main.071ca142.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.17654e45.css",
+    "static/js/main.071ca142.js"
+  ]
+}
