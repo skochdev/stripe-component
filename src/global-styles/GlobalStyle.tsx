@@ -2,10 +2,20 @@ import { createGlobalStyle } from 'styled-components/macro';
 import 'modern-normalize';
 
 // In this component we store the global css rules and modern-normalize.
-// Resets and other stuff that might be used globally - put it all here.
+// Resets and other stuff that affect styles globally - put it all here.
 
 export const GlobalStyle = createGlobalStyle`
 
+  :root {
+    // Duplicated colors from theme for global use
+    --text: '#fff';
+    --textDimmed: '#adbdcc';
+    --background: '#0A2540';
+    --backgroundAlt: '#114170';
+    --borderColor: '#175a94';
+    --accent: '#ffce48';
+  }
+  
   html {
     /*10px default font-size. % is used so the user would be able to zoom-in/out*/
     font-size: 62.5%;

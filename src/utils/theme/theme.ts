@@ -1,28 +1,26 @@
 import { DefaultTheme } from 'styled-components';
 
 export const theme: DefaultTheme = {
-  borders: ['0', '2px solid', '4px solid', '8px solid'],
+  borders: ['0', '1px solid', '4px solid', '8px solid'],
   radii: {
     none: '0',
-    normal: '0.25rem',
+    normal: '0.5rem',
     round: '50%',
   },
   colors: {
-    black: '#000',
-    white: '#fff',
-    text: '#2a2a2a',
-    background: '#fff',
-    primary: '#07c',
-    secondary: '#05a',
-    accent: '#fda031',
-    muted: '#b2b2b2',
+    text: '#fff',
+    textDimmed: '#adbdcc',
+    background: '#0A2540',
+    backgroundAlt: '#0d355e',
+    borderColor: '#104470',
+    accent: '#ffce48',
   },
   fontSizes: {
-    xs: '1.2rem',
-    s: '1.4rem',
-    m: '1.6rem',
-    l: '3.2rem',
-    xl: '6.4rem',
+    caption: '1.8rem',
+    title: '3.8rem',
+    titleSM: '3.4rem',
+    textRegular: '1.5rem',
+    invoiceHeading: '2.1rem',
   },
   fontWeights: [400, 500, 700, 900],
   lineHeights: {
@@ -34,16 +32,15 @@ export const theme: DefaultTheme = {
   shadows: {
     boxShadow: {
       none: 'none',
-      sm: 'box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;',
-      md: 'box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;',
-      lg: 'box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;',
+      sm: 'rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;',
+      md: 'rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;',
+      lg: 'rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;',
     },
   },
   breakpoints: {
-    xs: '0',
-    sm: '600px',
-    md: '960px',
-    lg: '1280px',
-    xl: '1920px',
+    mobile: '480px',
+    tablet: '768px',
+    laptop: '900px',
+    desktop: '1080px',
   },
 };

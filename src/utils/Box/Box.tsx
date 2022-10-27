@@ -11,6 +11,8 @@ import {
   TypographyProps,
   flexbox,
   FlexboxProps,
+  grid,
+  GridProps,
   position,
   PositionProps,
 } from 'styled-system';
@@ -22,6 +24,7 @@ interface Props
     LayoutProps,
     TypographyProps,
     FlexboxProps,
+    GridProps,
     PositionProps {
   children: React.ReactNode;
 }
@@ -36,5 +39,6 @@ export const Box = styled.div<Props>(
   layout,
   typography,
   flexbox,
+  grid,
   position
 );

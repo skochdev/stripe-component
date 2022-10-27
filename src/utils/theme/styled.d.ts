@@ -5,9 +5,22 @@ import 'styled-components';
 declare module 'styled-components' {
   export interface DefaultTheme {
     borders: string[];
-    radii: { [k: string]: string };
-    colors: { [k: string]: string };
-    fontSizes: { [k: string]: string };
+    radii: { none: string; normal: string; round: string };
+    colors: {
+      text: string;
+      textDimmed: string;
+      background: string;
+      backgroundAlt: string;
+      borderColor: string;
+      accent: string;
+    };
+    fontSizes: {
+      caption: string;
+      title: string;
+      titleSM: string;
+      textRegular: string;
+      invoiceHeading: string;
+    };
     fontWeights: number[];
     lineHeights: {
       solid: number;
@@ -19,11 +32,10 @@ declare module 'styled-components' {
       boxShadow: { [k: string]: string };
     };
     breakpoints: {
-      xs: string;
-      sm: string;
-      md: string;
-      lg: string;
-      xl: string;
+      mobile: string;
+      tablet: string;
+      laptop: string;
+      desktop: string;
     };
   }
 }
