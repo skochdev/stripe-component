@@ -3,12 +3,20 @@ import styled from 'styled-components/macro';
 export const List = styled.ul``;
 
 export const Item = styled.li`
+  position: relative;
   display: flex;
   font-size: ${p => p.theme.fontSizes.textRegular};
 
   & + & {
     margin-top: ${p => p.theme.space[1]}rem;
   }
+`;
+
+export const Checkbox = styled.input`
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
 `;
 
 export const CheckIcon = styled.div`

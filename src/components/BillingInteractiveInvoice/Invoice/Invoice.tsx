@@ -38,6 +38,36 @@ const Invoice = () => {
             <span>$600.00</span>
             <span>$600.00</span>
           </S.Item>
+
+          <S.ColumnTitlesNested>
+            <span>Storage (per GB)</span>
+          </S.ColumnTitlesNested>
+
+          <S.ItemAlt>
+            <span>First 1,000</span>
+            <span>1,000</span>
+            <span>$1.00</span>
+            <span>$1,000.00</span>
+          </S.ItemAlt>
+          <S.ItemAlt>
+            <span>Next 1,001 to 10,000</span>
+            <span>9,000</span>
+            <span>$0.50</span>
+            <span>$4,500.00</span>
+          </S.ItemAlt>
+          <S.ItemAlt>
+            <span>10,001 and above</span>
+            <span>100</span>
+            <span>$0.25</span>
+            <span>$25.00</span>
+          </S.ItemAlt>
+
+          <S.Item>
+            <span>Discount (referral)</span>
+            <span></span>
+            <span></span>
+            <span>-$1,000.00</span>
+          </S.Item>
         </S.InvoiceItems>
 
         <S.Total>

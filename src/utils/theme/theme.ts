@@ -11,7 +11,7 @@ export const theme: DefaultTheme = {
     text: '#fff',
     textDimmed: '#adbdcc',
     background: '#0A2540',
-    backgroundAlt: '#0d355e',
+    backgroundAlt: '#0C2E4E',
     borderColor: '#104470',
     accent: '#ffce48',
   },
